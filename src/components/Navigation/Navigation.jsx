@@ -11,9 +11,9 @@ import ThemeSwitcher, {
 
 
 const navMenu = [
-  { id: 0, title: 'Главное', link: '/' },
-  { id: 1, title: 'Мой плейлист', link: '/my_tracks' },
-  { id: 2, title: 'Выйти', link: '/logout' },
+  { id: 0, title: 'Main', link: '/' },
+  { id: 1, title: 'My playlist', link: '/my_tracks' },
+  { id: 2, title: 'Logout', link: '/logout' },
 ]
 
 export default function Navigation() {

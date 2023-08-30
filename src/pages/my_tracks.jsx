@@ -67,7 +67,7 @@ export default function MyTracks() {
       >
         <Navigation />
         <Centerblock
-          title="Мои треки"
+          title="My tracks"
           search={searchInput}
           data={searchedData || []}
           isFetching={isTracksLoading}
@@ -87,7 +87,7 @@ export default function MyTracks() {
       >
         <Navigation />
         <Centerblock
-          title="Мои треки"
+          title="My tracks"
           search={searchInput}
           data={searchedData || []}
           isFetching={isTracksLoading}

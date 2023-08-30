@@ -3,7 +3,6 @@ import 'react-loading-skeleton/dist/skeleton.css'
 import * as S from '../Centerblock/Centerblock-style'
 import { useThemeContext } from '../ThemeSwitcher/ThemeSwitcher'
 
-
 export default function SceletonTrack() {
   const { theme } = useThemeContext()
 
@@ -12,25 +11,23 @@ export default function SceletonTrack() {
       <S.PlaylistTrack>
         <S.TrackTitle>
           <S.TrackTitleImage theme={theme}>
-              <Skeleton />
+            <Skeleton />
           </S.TrackTitleImage>
           <S.TrackTitleText>
-              <Skeleton width="240px" height="16px" />
+            <Skeleton width="240px" height="16px" />
           </S.TrackTitleText>
         </S.TrackTitle>
         <S.TrackAuthor>
-            <Skeleton />
+          <Skeleton width="240px" height="16px" />
         </S.TrackAuthor>
         <S.TrackAlbum>
-            <Skeleton />
+          <Skeleton />
         </S.TrackAlbum>
         <S.TrackTime>
-          <S.TrackLikeSvg
-            theme={theme}
-          >
+          <S.TrackLikeSvg theme={theme}>
             <use xlinkHref="/img/icon/sprite.svg#icon-like" />
           </S.TrackLikeSvg>
-          <S.TrackTimeText theme={theme}/>
+          <S.TrackTimeText theme={theme} />
         </S.TrackTime>
       </S.PlaylistTrack>
     </S.PlaylistItem>

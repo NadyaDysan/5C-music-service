@@ -12,13 +12,13 @@ import { useThemeContext } from '../components/ThemeSwitcher/ThemeSwitcher'
 
 const COLLECTIONS = {
   1: {
-    title: 'Плейлист дня'
+    title: 'Playlist of the day'
   },
   2: {
-    title: '100 танцевальных хитов'
+    title: '100 hits'
   },
   3: {
-    title: 'Инди заряд'
+    title: 'Indie energy'
   }
 }
 
