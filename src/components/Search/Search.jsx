@@ -23,7 +23,7 @@ export default function Search({ updateSearch }) {
         value={value}
         theme={theme}
         type="search"
-        placeholder="Поиск"
+        placeholder="Search"
         name="search"
       />
     </S.CenterBlockSearch>

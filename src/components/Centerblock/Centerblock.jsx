@@ -56,9 +56,9 @@ export default function Centerblock({
       {filter}
       <S.CenterBlockContent>
         <S.ContentTitle>
-          <S.PlayListTitleCol theme={theme}>Трек</S.PlayListTitleCol>
-          <S.PlayListTitleCol theme={theme}>ИСПОЛНИТЕЛЬ</S.PlayListTitleCol>
-          <S.PlayListTitleCol theme={theme}>АЛЬБОМ</S.PlayListTitleCol>
+          <S.PlayListTitleCol theme={theme}>Track</S.PlayListTitleCol>
+          <S.PlayListTitleCol theme={theme}>Author</S.PlayListTitleCol>
+          <S.PlayListTitleCol theme={theme}>Album</S.PlayListTitleCol>
           <S.PlayListTitleCol theme={theme}>
             <S.PlaylistTitleSvg theme={theme} alt="time">
               <use xlinkHref="/img/icon/sprite.svg#icon-watch" />

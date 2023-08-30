@@ -53,7 +53,7 @@ export default function Registration() {
       dispatch(
         addError({
           error: 'password',
-          message: 'Оба введеных пороля должны совпадать',
+          message: 'Both entered passwords must match',
           unique: 'noPasswordMessage',
         })
       )
@@ -107,7 +107,7 @@ export default function Registration() {
         <S.InputBlock>
           <S.Login
             name="login"
-            placeholder="Логин"
+            placeholder="Login"
             autoComplete="username"
             value={username}
             onChange={(event) => setUsername(event.target.value)}
@@ -115,7 +115,7 @@ export default function Registration() {
           <S.Password
             type="password"
             name="password"
-            placeholder="Пароль"
+            placeholder="Password"
             autoComplete={isSignUp ? 'new-password' : 'current-password'}
             value={password}
             onChange={(event) => setPassword(event.target.value)}
@@ -124,7 +124,7 @@ export default function Registration() {
             <S.RepeatPassword
               type="password"
               name="password-repeat"
-              placeholder="Повторите пароль"
+              placeholder="Repeat password"
               autoComplete={isSignUp ? 'new-password' : 'current-password'}
               value={repeatedPassword}
               onChange={(event) => setRepeatedPassword(event.target.value)}
@@ -133,14 +133,14 @@ export default function Registration() {
           <S.EnterButton
             variant="contained"
             type="submit"
-            value={isSignUp ? 'Зарегистрироваться' : 'Войти'}
+            value="Login"
             onClick={handleOnSubmit}
           />
           {!isSignUp && (
             <S.RegisterButton
               variant="contained"
               type="submit"
-              value="Зарегистрироваться"
+              value="Register"
               onClick={handleOnSignUpClick}
             />
           )}

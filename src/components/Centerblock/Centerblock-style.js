@@ -66,7 +66,6 @@ export const PlayListTitleCol = styled.div`
   }
   &:nth-of-type(4) {
     width: 60px;
-    text-align: end;
   }
 `
 export const PlaylistTitleSvg = styled.svg`

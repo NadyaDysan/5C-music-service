@@ -78,7 +78,7 @@ export default function Main() {
       // eslint-disable-next-line no-nested-ternary
       return dateA > dateB ? -1 : dateA < dateB ? 1 : 0
     })
-    if (years && years === 'Более старые') filtered = filtered.reverse()
+    if (years && years === 'Older') filtered = filtered.reverse()
     setFilteredData(filtered)
   }, [filter, isTracksSuccess])
 
@@ -96,7 +96,7 @@ export default function Main() {
     >
       <Navigation />
       <Centerblock
-        title="Треки"
+        title="Tracks"
         search={searchInput}
         filter={filterButtons}
         data={searchedData || []}
@@ -118,7 +118,7 @@ export default function Main() {
     >
       <Navigation />
       <Centerblock
-        title="Треки"
+        title="Tracks"
         search={searchInput}
         filter={filterButtons}
         data={searchedData || []}

@@ -52,7 +52,7 @@ export const MenuItem = styled.li`
   list-style-type: none;
 `
 
-export const MenuLink = styled.a`
+export const MenuLink = styled.div`
   color: ${props => props.theme.color};
   font-weight: 400;
   font-size: 16px;

@@ -4,7 +4,7 @@ import { useThemeContext } from '../ThemeSwitcher/ThemeSwitcher'
 
 import * as S from './Filter-style'
 
-const years = ['Более новые', 'Более старые']
+const years = ['Newer', 'Older']
 
 const getFilter = () => {
   const filter = localStorage.getItem('filter')
@@ -56,18 +56,18 @@ export default function Filter({ data, updateFilter }) {
 
   return (
     <S.CenterBlockFilter>
-      <S.FilterTitle theme={theme}>Искать по:</S.FilterTitle>
+      <S.FilterTitle theme={theme}>Search by:</S.FilterTitle>
       <DropdownFilter
-        title="исполнителю"
+        title="author"
         list={authors}
         filterName="authors"
         filter={filter}
         setFilter={setFilter}
       />
-      <RadioFilter title="году выпуска" list={years} name="years" filter={filter}
+      <RadioFilter title="release year" list={years} name="years" filter={filter}
         setFilter={setFilter} />
       <DropdownFilter
-        title="жанру"
+        title="genre"
         list={genres}
         filterName="genres"
         filter={filter}

@@ -5,9 +5,9 @@ export default function LoadingError({ resetErrorBoundary }) {
     <S.LoadingErrorContainer>
       <S.IconSmileSad src="/img/emoji/sad.png" alt="sad_emoji" />
       <S.LoadingErrorTextContainer>
-        <S.LoadingErrorHeader>Ошибка загрузки</S.LoadingErrorHeader>
+        <S.LoadingErrorHeader>Loading error</S.LoadingErrorHeader>
         <S.LoadingErrorText>
-          Проверьте подключение к сети и повторите попытку
+          Please check your network connection and try again
         </S.LoadingErrorText>
       </S.LoadingErrorTextContainer>
       <S.LoadingErrorButtonContainer>
