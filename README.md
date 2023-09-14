@@ -2,6 +2,9 @@
 
 A handsome music App: light version of Spotify or YT Music-like apps. An opened API was used: https://painassasin.online/swagger/.
 
+You can see it here:  
+For log in you can use the following test data: **Login** Carl **Password**: A45gqmt5BRd2qim
+
 **Completed technical tasks:**
  
 - Registration (login) 
