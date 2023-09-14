@@ -1,9 +1,9 @@
 ****Description****
 
-A handsome music App: light version of Spotify or YT Music-like apps. An opened API was used: https://painassasin.online/swagger/.
+A handsome music React JS App: light version of Spotify or YT Music-like apps.
 
-You can see it here:  
-For log in you can use the following test data: **Login** Carl **Password**: A45gqmt5BRd2qim
+You can see it here: https://5-c-music-service.vercel.app/
+For **log in** you can use the following test data: **Login** Carl **Password**: A45gqmt5BRd2qim
 
 **Completed technical tasks:**
  
@@ -26,3 +26,5 @@ For log in you can use the following test data: **Login** Carl **Password**: A45
 - The whole interface is divided into pages 
 - Color theme change 
 - The interface is styled correctly
+
+ _ An opened API was used: https://painassasin.online/swagger/._
