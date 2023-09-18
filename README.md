@@ -4,6 +4,7 @@ A handsome music **React** JS App: light version of Spotify or YT Music-like app
 
 You can see it here: https://5-c-music-service.vercel.app/
 For **log in** you can use the following test data: **Login** Carl **Password**: A45gqmt5BRd2qim
+**Update**: now there can be some problems with backend part as an opened API was used: https://painassasin.online/swagger/.
 
 **Completed technical tasks:**
  
@@ -26,5 +27,3 @@ For **log in** you can use the following test data: **Login** Carl **Password**:
 - The whole interface is divided into pages 
 - Color theme change 
 - The interface is styled correctly
-
- _ An opened API was used: https://painassasin.online/swagger/._
